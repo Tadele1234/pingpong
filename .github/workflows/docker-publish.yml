@@ -16,4 +16,4 @@ jobs:
       with:
         context: .
         push: True
-        tags : tadele123/pingv2:latest
+        tags : tadele123/pingv3:latest
