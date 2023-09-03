@@ -3,7 +3,7 @@ name: ci
 on:
   push:
     branches:
-      - "development"
+      - "main"
 
 jobs:
   docker:
@@ -29,7 +29,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          push: False
+          push: True
           tags: user/app:latest
       -
         name: Update repo description
