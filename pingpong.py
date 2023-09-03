@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/ping')
 def hello_world():
-   return 'PONG'
+   return 'tadele is the king'
 
 if __name__ == '__main__':
    app.run(host="0.0.0.0",port=5555)
